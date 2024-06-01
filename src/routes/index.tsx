@@ -6,7 +6,9 @@ export default component$(() => {
   const test = useContext(TestContext);
   return (
     <>
-      <h1>{test.value}</h1>
+      <h1>{test.title}</h1>
+      <h1>{test.description}</h1>
+      <h1>{test.count}</h1>
     </>
   );
 });
